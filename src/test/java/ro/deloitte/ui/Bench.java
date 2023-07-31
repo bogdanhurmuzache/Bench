@@ -71,7 +71,7 @@ public class Bench {
         System.out.println("myFirstNumber");
         System.out.println(myFirstNumber);
         myFirstNumber = 13;
-        System.out.println(myFirstNumber);
+        //System.out.println(myFirstNumber);
 
 
     }
