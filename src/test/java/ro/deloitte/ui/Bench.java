@@ -39,5 +39,42 @@ public class Bench {
     public void whenIPrintItInTheConsole() {
         System.out.println(wordToBePrinted);
     }
+
+
+    public static void main(String[] args) {
+        //System.out.println("QA Automation");
+        //System.out.println("Something");
+        //System.out.println("13");
+        //System.out.println(10);
+        //System.out.println(10 + 13);
+
+        //Comment
+        //System.out.println("First Comment");
+        //System.out.println("Second comment"); // Second comment
+
+        /* Comment
+        more
+        then one line */
+
+        //System.out.println("This sentence will work!");
+        //System.out.println(This sentence will produce an error);
+
+        //System.out.print("Hello World! ");
+        //System.out.print("I will print on the same line.");
+        //System.out.println("STOP");
+
+        //System.out.print("First line.");
+        //System.out.print("Second line.");
+        //System.out.println("STOP");
+
+        int myFirstNumber = 10;
+        System.out.println("myFirstNumber");
+        System.out.println(myFirstNumber);
+        myFirstNumber = 13;
+        System.out.println(myFirstNumber);
+
+
+    }
 }
+
 
