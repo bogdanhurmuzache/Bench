@@ -6,12 +6,12 @@ public class Car {
 
     public void accelerate() {
         speed++;
-        System.out.println("You are going %d kilometres per hour. %n" + speed);
+        System.out.printf("You are going %d kilometres per hour. %n", speed);
     }
 
     public void brake() {
         speed--;
-        System.out.println("You are going %d kilometres per hour. %n" + speed);
+        System.out.printf("You are going %d kilometres per hour. %n", speed);
 
     }
     public static void main(String[] args){
