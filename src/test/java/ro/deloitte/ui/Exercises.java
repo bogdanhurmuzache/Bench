@@ -1,6 +1,9 @@
 package ro.deloitte.ui;
 
 public class Exercises {
+    public static void main(String[] args) {
+
+
 
         /*public static void main(String[] args) {
             Object obj1 = new Object();
@@ -13,7 +16,7 @@ public class Exercises {
         }*/
 
 
-    //What will the following code print when run?
+        //What will the following code print when run?
     /*public void switchString(String input) {
         switch (input) {
             case "a":
@@ -47,13 +50,16 @@ public class Exercises {
         }*/
 
 
-
-
-    //Consider the following code:
+        //Consider the following code:
     /*public class TestClass {
         //define tester method here
         public static void main(String[] args) throws Exception { TestClass tc = new TestClass();
             while(tc.equals()){
                 System.out.println("running..."); } } }*/
-    //Which of the following options would be a valid implementation of tester() method?
+        //Which of the following options would be a valid implementation of tester() method?
+
+
+    }
 }
+
+
