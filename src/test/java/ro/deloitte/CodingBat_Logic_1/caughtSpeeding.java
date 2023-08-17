@@ -16,21 +16,30 @@ package ro.deloitte.CodingBat_Logic_1;
 
 
 public class caughtSpeeding {
-    public int caughtSpeeding(int speed, boolean isBirthday) {
-
-        int no_ticket = 0;
-        int small_ticket = 1;
-        int big_ticket = 2;
-
-        if(speed <= 60){
-            System.out.printf("The result is: %d", no_ticket);
+    public static int caughtSpeeding(int speed, boolean isBirthday) {
+        if (isBirthday == true) {
+            speed = speed - 5;
         }
 
-        return speed;
+        if (speed <= 60) {
+            return 0;
+        } else if (speed <= 80) {
+            return 1;
+        } else {
+            return 2;
+        }
     }
 
     public static void main(String[] args) {
-        int speed = caughtSpeeding(60, false);
+        caughtSpeeding speedingChecker = new caughtSpeeding();
+
+        int speed_1 = caughtSpeeding(60, false);
+        int speed_2 = caughtSpeeding(65, false);
+        int speed_3 = caughtSpeeding(65, true);
+
+        System.out.println("caughtSpeeding(60, false): " + speed_1);  // Output: 0
+        System.out.println("caughtSpeeding(65, false): " + speed_2);  // Output: 1
+        System.out.println("caughtSpeeding(65, true): " + speed_3);   // Output: 0
     }
 }
 
