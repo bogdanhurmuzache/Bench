@@ -2,7 +2,7 @@ package ro.deloitte.Other_Exercises;
 
 //What will the following code print when run?
 
-public class TestClass {
+/*public class TestClass {
 public void switchString(String input){
 switch(input){
 case "a" : System.out.println( "apple" );
@@ -19,7 +19,7 @@ tc.switchString("B");
             }
 
     public static class Exercises {
-        public static void main(String[] args) {
+        public static void main(String[] args) {  */
 
 
 
@@ -77,9 +77,9 @@ tc.switchString("B");
             //Which of the following options would be a valid implementation of tester() method?
 
 
-        }
-    }
-}
+        //}
+   // }
+//}
 
 
 

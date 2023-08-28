@@ -16,6 +16,8 @@ public class Practice {
     @Test
     public void Test() throws InterruptedException {
 
+        driver.get("http://selenumpractise.blogspot.com/2021/08/");
+
         //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
         /*driver.get("https://login.yahoo.com/?lang=ro-RO&src=ym&done=https%3A%2F%2Fmail.yahoo.com%2F&add=1");
