@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = {"ro.deloitte"},
+        glue = {"ro.deloitte.Cucumber2023"},
         features = "classpath:features",
         plugin = {"pretty",
                 "json:target/cucumber-reports-api/Cucumber.json",

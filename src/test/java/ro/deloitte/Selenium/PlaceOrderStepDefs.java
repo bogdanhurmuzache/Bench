@@ -1,4 +1,4 @@
-package ro.deloitte.Selenium;
+/*package ro.deloitte.Selenium;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -33,4 +33,4 @@ public class PlaceOrderStepDefs {
     @And(“Customer is able to click the place order button”)
     public void clickPlaceOrderButton(){
     }
-}
+}*/
