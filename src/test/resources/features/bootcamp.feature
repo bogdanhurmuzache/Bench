@@ -1,6 +1,5 @@
 Feature: Place new order
 
-  //@test
   Scenario: Place an order for the required product
     Given Customer navigates to the website
     And Customer login to his account

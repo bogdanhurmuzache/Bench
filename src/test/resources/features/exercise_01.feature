@@ -1,6 +1,6 @@
 Feature: Login
 
-  //@test
+
   Scenario: Login and verify a message
     Given I access OrangeHRM page
     When I enter invalid login credentials

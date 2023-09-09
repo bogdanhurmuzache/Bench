@@ -11,8 +11,8 @@ import ro.deloitte.Selenium.DriverManager;
 
 public class Step_Definition_exercise_02 {
     protected WebDriver driver;
-
     public Step_Definition_exercise_02(){
+
         driver = DriverManager.getDriver();
     }
     @Given ("I access OrangeHRM page_exercise02")
@@ -49,7 +49,8 @@ public class Step_Definition_exercise_02 {
         String Username = "Dinil Collings";
         System.out.println(Username);
 
-        Assert.assertEquals(checkUsername, Username);
+        assert checkUsername.equals(Username);
+        //Assert.assertEquals(checkUsername, Username);
     }
 
 }

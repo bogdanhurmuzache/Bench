@@ -28,10 +28,6 @@ public class nearTen {
         System.out.println("nearTen(17): " + example_2);  // Output: false
         System.out.println("nearTen(19): " + example_3);   // Output: true
     }
-
-
-
-
 }
 
 

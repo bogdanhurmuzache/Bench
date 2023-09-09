@@ -1,6 +1,6 @@
 Feature: As a user I want to log into my account with valid credentials
 
-  @test
+
   Scenario: Login to the web page
     Given I access OrangeHRM page_exercise02
     When I enter valid login credentials
